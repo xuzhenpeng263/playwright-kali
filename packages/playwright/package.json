@@ -1,12 +1,12 @@
 {
-  "name": "playwright",
-  "version": "1.57.0-next",
-  "description": "A high-level API to automate web browsers",
+  "name": "playwright-kali",
+  "version": "1.57.0-kali.1",
+  "description": "Playwright with Kali Linux support - A high-level API to automate web browsers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright.git"
+    "url": "git+https://github.com/xuzhenpeng263/playwright-kali.git"
   },
-  "homepage": "https://playwright.dev",
+  "homepage": "https://github.com/xuzhenpeng263/playwright-kali#readme",
   "engines": {
     "node": ">=18"
   },
@@ -57,14 +57,32 @@
     }
   },
   "bin": {
+    "playwright-kali": "cli.js",
     "playwright": "cli.js"
   },
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "Kali Linux Playwright Contributors",
+    "email": "maintainers@kali.org"
+  },
+  "keywords": [
+    "playwright",
+    "kali-linux",
+    "browser",
+    "automation",
+    "testing",
+    "security-testing",
+    "e2e-testing",
+    "pentesting"
+  ],
+  "bugs": {
+    "url": "https://github.com/xuzhenpeng263/playwright-kali/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "1.57.0-next"
+    "playwright-core-kali": "1.57.0-kali.1"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"

@@ -1,12 +1,12 @@
 {
-  "name": "@playwright/test",
-  "version": "1.57.0-next",
-  "description": "A high-level API to automate web browsers",
+  "name": "@playwright-kali/test",
+  "version": "1.57.0-kali.1",
+  "description": "Playwright Test with Kali Linux support - A high-level API to automate web browsers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright.git"
+    "url": "git+https://github.com/xuzhenpeng263/playwright-kali.git"
   },
-  "homepage": "https://playwright.dev",
+  "homepage": "https://github.com/xuzhenpeng263/playwright-kali#readme",
   "engines": {
     "node": ">=18"
   },
@@ -30,6 +30,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "playwright": "1.57.0-next"
+    "playwright-kali": "1.57.0-kali.1"
   }
 }

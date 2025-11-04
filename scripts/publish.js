@@ -213,7 +213,7 @@ async function publishPackage(packageName) {
     log('检查包名可用性...', 'cyan');
     if (!checkPackageAvailability(newPackageName)) {
       log(`⚠️  包 ${newPackageName} 已存在，跳过发布`, 'yellow');
-      return false;
+      return true;
     }
 
     // 更新package.json

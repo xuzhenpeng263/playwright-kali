@@ -1,17 +1,30 @@
 {
-  "name": "@playwright/experimental-ct-core",
-  "version": "1.57.0-next",
-  "description": "Playwright Component Testing Helpers",
+  "name": "@playwright-kali/experimental-ct-core",
+  "version": "1.57.0-kali.1",
+  "description": "Playwright Component Testing Helpers with Kali Linux support",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright.git"
+    "url": "git+https://github.com/xuzhenpeng263/playwright-kali.git"
   },
-  "homepage": "https://playwright.dev",
+  "homepage": "https://github.com/xuzhenpeng263/playwright-kali#readme",
   "engines": {
     "node": ">=18"
   },
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "Kali Linux Playwright Contributors",
+    "email": "maintainers@kali.org"
+  },
+  "keywords": [
+    "playwright",
+    "kali-linux",
+    "component-testing",
+    "testing"
+  ],
+  "bugs": {
+    "url": "https://github.com/xuzhenpeng263/playwright-kali/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "Apache-2.0",
   "exports": {
@@ -26,8 +39,8 @@
     }
   },
   "dependencies": {
-    "playwright-core": "1.57.0-next",
+    "playwright-core-kali": "1.57.0-kali.1",
     "vite": "^6.4.1",
-    "playwright": "1.57.0-next"
+    "playwright-kali": "1.57.0-kali.1"
   }
 }
