@@ -34,6 +34,7 @@ export type HostPlatform = 'win64' |
                            'debian11-x64' | 'debian11-arm64' |
                            'debian12-x64' | 'debian12-arm64' |
                            'debian13-x64' | 'debian13-arm64' |
+                           'kali-x64' | 'kali-arm64' |
                            '<unknown>';
 
 function calculatePlatform(): { hostPlatform: HostPlatform, isOfficiallySupportedPlatform: boolean } {
@@ -75,6 +76,7 @@ function calculatePlatform(): { hostPlatform: HostPlatform, isOfficiallySupporte
     // Pop!_OS is ubuntu-based and has the same versions.
     // KDE Neon is ubuntu-based and has the same versions.
     // TUXEDO OS is ubuntu-based and has the same versions.
+    // Kali Linux is Debian-based and follows Debian versions.
     if (distroInfo?.id === 'ubuntu' || distroInfo?.id === 'pop' || distroInfo?.id === 'neon' || distroInfo?.id === 'tuxedo') {
       const isUbuntu = distroInfo?.id === 'ubuntu';
       const version = distroInfo?.version;
@@ -110,6 +112,14 @@ function calculatePlatform(): { hostPlatform: HostPlatform, isOfficiallySupporte
       // they never include a numeric version entry in /etc/os-release.
       if (distroInfo?.version === '')
         return { hostPlatform: ('debian13' + archSuffix) as HostPlatform, isOfficiallySupportedPlatform };
+    }
+    // Kali Linux is Debian-based and uses rolling release
+    // Map Kali to its own platform identifier for proper dependency management
+    if (distroInfo?.id === 'kali') {
+      const isOfficiallySupportedPlatform = true; // Kali Linux is now officially supported
+      // Kali Linux is rolling, so we use the kali platform identifier
+      // This ensures users get Kali-specific dependency packages
+      return { hostPlatform: ('kali' + archSuffix) as HostPlatform, isOfficiallySupportedPlatform };
     }
     return { hostPlatform: ('ubuntu20.04' + archSuffix) as HostPlatform, isOfficiallySupportedPlatform: false };
   }

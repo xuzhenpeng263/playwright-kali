@@ -14,6 +14,13 @@ Playwright is a framework for Web Testing and Automation. It allows testing [Chr
 
 Headless execution is supported for all browsers on all platforms. Check out [system requirements](https://playwright.dev/docs/intro#system-requirements) for details.
 
+**Linux Distribution Support**
+Playwright officially supports the following Linux distributions:
+- Ubuntu (18.04, 20.04, 22.04, 24.04)
+- Debian (11, 12, 13)
+- Kali Linux (rolling release)
+- Other Debian-based distributions may work but are not officially supported
+
 Looking for Playwright for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), or [Java](https://playwright.dev/java/docs/intro)?
 
 ## Installation
