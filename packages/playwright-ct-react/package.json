@@ -30,7 +30,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@playwright/experimental-ct-core": "1.57.11",
+    "@playwright/experimental-ct-core": "workspace:*",
     "@vitejs/plugin-react": "^4.2.1"
   },
   "bin": {

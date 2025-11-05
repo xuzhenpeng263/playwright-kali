@@ -30,6 +30,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "playwright-kali": "1.57.11"
+    "playwright-kali": "workspace:*"
   }
 }

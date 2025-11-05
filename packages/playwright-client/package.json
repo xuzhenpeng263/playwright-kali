@@ -30,6 +30,6 @@
     "watch": "npm run esbuild -- --watch"
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.0-kali.1"
+    "playwright-core-kali": "workspace:*"
   }
 }

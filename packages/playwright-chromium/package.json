@@ -44,6 +44,6 @@
     "install": "node install.js"
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.11"
+    "playwright-core-kali": "workspace:*"
   }
 }

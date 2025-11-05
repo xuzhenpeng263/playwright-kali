@@ -83,7 +83,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "playwright-core": "npm:playwright-core-kali@1.57.11",
-    "playwright-core-kali": "1.57.11"
+    "playwright-core-kali": "workspace:*"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"

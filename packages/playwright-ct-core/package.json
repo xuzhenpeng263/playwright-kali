@@ -39,8 +39,8 @@
     }
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.11",
+    "playwright-core-kali": "workspace:*",
     "vite": "^6.4.1",
-    "playwright-kali": "1.57.11"
+    "playwright-kali": "workspace:*"
   }
 }
