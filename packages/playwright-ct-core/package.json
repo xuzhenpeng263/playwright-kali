@@ -1,6 +1,6 @@
 {
   "name": "@playwright-kali/experimental-ct-core",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright Component Testing Helpers with Kali Linux support",
   "repository": {
     "type": "git",
@@ -39,8 +39,8 @@
     }
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.0-kali.1",
+    "playwright-core-kali": "1.57.11",
     "vite": "^6.4.1",
-    "playwright-kali": "1.57.0-kali.1"
+    "playwright-kali": "1.57.11"
   }
 }

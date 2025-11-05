@@ -1,6 +1,6 @@
 {
   "name": "playwright-kali",
-  "version": "1.57.0-kali.3",
+  "version": "1.57.11",
   "description": "Playwright with Kali Linux support - A high-level API to automate web browsers",
   "repository": {
     "type": "git",
@@ -82,8 +82,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "npm:playwright-core-kali@1.57.0-kali.2",
-    "playwright-core-kali": "1.57.0-kali.2"
+    "playwright-core": "npm:playwright-core-kali@1.57.11",
+    "playwright-core-kali": "1.57.11"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"

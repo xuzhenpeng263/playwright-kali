@@ -38,7 +38,7 @@ npm login
 ```json
 {
   "name": "playwright-kali",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright with Kali Linux support - A high-level API to automate web browsers",
   "keywords": [
     "playwright",
@@ -64,7 +64,7 @@ npm login
     "access": "public"
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.0-kali.1"
+    "playwright-core-kali": "1.57.11"
   }
 }
 ```
@@ -73,7 +73,7 @@ npm login
 ```json
 {
   "name": "playwright-core-kali",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright Core with Kali Linux support",
   "keywords": [
     "playwright",
@@ -130,20 +130,20 @@ npm pack --dry-run
 
 #### 3.1 版本号策略
 使用语义化版本控制，建议格式：
-- `1.57.0-kali.1` - 第一个Kali支持版本
-- `1.57.0-kali.2` - 后续修复版本
+- `1.57.11` - 第一个Kali支持版本
+- `1.57.12` - 后续修复版本
 
 #### 3.2 更新版本号
 ```bash
 # 更新所有包的版本
-npm version 1.57.0-kali.1 --workspace
+npm version 1.57.11 --workspace
 
 # 或手动更新每个包
 cd packages/playwright-core
-npm version 1.57.0-kali.1
+npm version 1.57.11
 
 cd ../playwright
-npm version 1.57.0-kali.1
+npm version 1.57.11
 ```
 
 ### 第四阶段：发布流程
@@ -278,11 +278,11 @@ npx playwright install-deps
 #### 5.2 更新GitHub仓库
 ```bash
 # 创建发布标签
-git tag -a v1.57.0-kali.1 -m "Playwright with Kali Linux support v1.57.0-kali.1"
-git push origin v1.57.0-kali.1
+git tag -a v1.57.11 -m "Playwright with Kali Linux support v1.57.11"
+git push origin v1.57.11
 
 # 创建GitHub Release
-gh release create v1.57.0-kali.1 --title "Playwright Kali Linux Support v1.57.0-kali.1" --notes "Initial release with Kali Linux official support"
+gh release create v1.57.11 --title "Playwright Kali Linux Support v1.57.11" --notes "Initial release with Kali Linux official support"
 ```
 
 ## 📋 发布检查清单

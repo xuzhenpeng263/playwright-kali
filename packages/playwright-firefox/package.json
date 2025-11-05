@@ -1,6 +1,6 @@
 {
   "name": "playwright-firefox-kali",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright Firefox with Kali Linux support - A high-level API to automate Firefox",
   "repository": {
     "type": "git",
@@ -44,6 +44,6 @@
     "install": "node install.js"
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.0-kali.1"
+    "playwright-core-kali": "1.57.11"
   }
 }

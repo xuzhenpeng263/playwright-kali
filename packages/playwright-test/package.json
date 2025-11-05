@@ -1,6 +1,6 @@
 {
   "name": "@playwright-kali/test",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright Test with Kali Linux support - A high-level API to automate web browsers",
   "repository": {
     "type": "git",
@@ -30,6 +30,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "playwright-kali": "1.57.0-kali.1"
+    "playwright-kali": "1.57.11"
   }
 }

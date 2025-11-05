@@ -26,7 +26,7 @@ const CONFIG = {
   // 新包名后缀
   nameSuffix: '-kali',
   // 版本后缀
-  versionSuffix: '-kali.1'
+  versionSuffix: '.11'
 };
 
 // 颜色输出函数
@@ -319,8 +319,8 @@ async function main() {
 
   if (process.env.DRY_RUN !== 'true' && successful.length > 0) {
     log('\n📝 发布后任务:', 'yellow');
-    log('1. 创建Git标签: git tag -a v1.57.0-kali.1 -m "Playwright with Kali Linux support"', 'yellow');
-    log('2. 推送标签: git push origin v1.57.0-kali.1', 'yellow');
+    log('1. 创建Git标签: git tag -a v1.57.11 -m "Playwright with Kali Linux support"', 'yellow');
+    log('2. 推送标签: git push origin v1.57.11', 'yellow');
     log('3. 创建GitHub Release', 'yellow');
     log('4. 测试安装: npm install playwright-kali', 'yellow');
     log('5. 更新文档和README', 'yellow');

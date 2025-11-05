@@ -1,6 +1,6 @@
 {
   "name": "playwright-chromium-kali",
-  "version": "1.57.0-kali.1",
+  "version": "1.57.11",
   "description": "Playwright Chromium with Kali Linux support - A high-level API to automate Chromium",
   "repository": {
     "type": "git",
@@ -44,6 +44,6 @@
     "install": "node install.js"
   },
   "dependencies": {
-    "playwright-core-kali": "1.57.0-kali.1"
+    "playwright-core-kali": "1.57.11"
   }
 }

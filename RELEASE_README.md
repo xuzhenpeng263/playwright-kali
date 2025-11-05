@@ -144,13 +144,13 @@ npx playwright --version
 ### 3. 更新Git仓库
 ```bash
 # 创建标签
-git tag -a v1.57.0-kali.1 -m "Playwright with Kali Linux support"
+git tag -a v1.57.11 -m "Playwright with Kali Linux support"
 
 # 推送标签
-git push origin v1.57.0-kali.1
+git push origin v1.57.11
 
 # 创建GitHub Release
-gh release create v1.57.0-kali.1 --title "Playwright Kali Linux Support v1.57.0-kali.1" --notes "Initial release with Kali Linux official support"
+gh release create v1.57.11 --title "Playwright Kali Linux Support v1.57.11" --notes "Initial release with Kali Linux official support"
 ```
 
 ## 📞 获取帮助

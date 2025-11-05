@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 
 # 配置
 NAME_SUFFIX="-kali"
-VERSION_SUFFIX="-kali.1"
+VERSION_SUFFIX=".11"
 
 # 日志函数
 log() {
@@ -229,8 +229,8 @@ main() {
     if [ "$DRY_RUN" != "true" ] && [ ${#successful[@]} -gt 0 ]; then
         echo
         log "📝 发布后任务:" "$YELLOW"
-        echo "1. 创建Git标签: git tag -a v1.57.0${VERSION_SUFFIX} -m \"Playwright with Kali Linux support\""
-        echo "2. 推送标签: git push origin v1.57.0${VERSION_SUFFIX}"
+        echo "1. 创建Git标签: git tag -a v1.57${VERSION_SUFFIX} -m \"Playwright with Kali Linux support\""
+        echo "2. 推送标签: git push origin v1.57${VERSION_SUFFIX}"
         echo "3. 创建GitHub Release"
         echo "4. 测试安装: npm install playwright${NAME_SUFFIX}"
         echo "5. 更新文档"

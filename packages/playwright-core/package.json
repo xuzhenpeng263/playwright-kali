@@ -1,6 +1,6 @@
 {
   "name": "playwright-core-kali",
-  "version": "1.57.0-kali.2",
+  "version": "1.57.11",
   "description": "Playwright Core with Kali Linux support - A high-level API to automate web browsers",
   "repository": {
     "type": "git",
